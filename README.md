@@ -9,3 +9,6 @@ You need to install packet for executing :
 - aircrack-ng
 
 You will also need a password data base moddify the path in Resources->Scripts->wifimdp.sh
+
+
+/!\ This version doesn't allow you to deauth /!\
