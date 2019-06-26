@@ -8,7 +8,8 @@ You need to install packet for executing :
 - mergecap
 - aircrack-ng
 
-You will also need a password data base moddify the path in Resources->Scripts->wifimdp.sh
+You will also need a password data base modify the path in Resources->Scripts->wifimdp.sh
+Link to download one : https://github.com/berzerk0/Probable-Wordlists/tree/master/Real-Passwords/WPA-Length
 
 
 /!\ This version doesn't allow you to deauth /!\
